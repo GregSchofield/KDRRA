@@ -1,0 +1,50 @@
+$red-sombre: #a6170f;
+$red-bright: #e32e19;
+$black-type: #0a0917;
+$green-pale: #71a370;
+$green-cool: #2f6b35;
+$green-cold: #165027;
+$yellow-light: #f8e6cc;
+$yellow-heavy: #e7d5be;
+$blue-deep: #020d66;
+$blue-fade: #062f65;
+$blue-light: #3c829c;
+
+html, body {background-color: $yellow-heavy;}
+* {font-family: Junicode_VF;}
+
+.emSpan, fn {color: $red-bright;} // redletter
+.dwnld {color: $green-cold;}
+.url {color: $blue-deep;}
+.lisym, .linum, .hd {color: $red-sombre;}
+.txt {color: $black-type;}
+.hd {color: $red-sombre;}
+.refnum {color: $blue-light;}
+.by {color: $blue-fade;}
+
+
+figure {background-color: $yellow-light;
+    position: relative;
+    display: table;
+    margin: 0%;
+    padding: 0.005rem;
+    border-style: solid;
+    border-width: 0.15rem;
+    border-color: $red-bright;
+    box-shadow: 0.5rem 0.5rem 0.5rem #0a0917;}
+
+figcaption {color: $red-sombre;
+    padding: 0.5rem;
+    text-align: center;
+    caption-side: bottom;
+    font-size: 0.9rem;
+    font-style: italic;}
+
+h1, h2, h3, h4, h5, h6, .Qhd {color: $red-sombre; text-align: center;}
+
+img {position: relative;
+    margin: 0%;
+    border-style: solid;
+    border-width: 0.05rem;
+    border-color: 1px 1px 2px ivory;
+    }
